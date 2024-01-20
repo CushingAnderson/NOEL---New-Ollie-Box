@@ -45,7 +45,7 @@ e.	I also store a compressed air horn and a whistle in the box in case things br
 3.	Consider how wires will run between components – maybe long the edge, or maybe under a rug or foam pad. (See Lesson Learned A (LL.A))
    
 Step 5: Programming the Arduino 
-1.	To program the Arduino: Download the Arduino IDE to your laptop. Upload the code to the Arduino with a USB cable. Source is here: https://xxx (PI2)    the time units is 100ths of second and the time resolution < 10ms approx.
+1.	To program the Arduino: Download the Arduino IDE to your laptop. Upload the code to the Arduino with a USB cable. Source is here: https://github.com/CushingAnderson/NOEL---New-Ollie-Box/blob/main/Regatta_StartHorn_Multi_Choice_No_Alert.ino (PI2)    the time units is 100ths of second and the time resolution < 10ms approx.
 2.	Stack the LCD shield on the Arduino board. 
 3.	TEST:  The ”Left” and “Select” buttons on the shield should properly control the Arduino and display on the LCD: with Arduino plugged into power, push the “left” button on shield, LCD screen should indicate the “3-minute” or “5-minute” sequence. Press button again to cycle back and forth. 
 Press the “Select” button. The LCD panel will begin counting down. Press button again to cancel the sequence. 
